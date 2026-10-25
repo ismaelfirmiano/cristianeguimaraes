@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cristiane Guimarães · Fisioterapia para Dor na Coluna e Lombar em Icaraí, Niterói</title>
+<meta name="description" content="Fisioterapeuta Cristiane Guimarães, em Icaraí, Niterói. 37 anos de experiência em fisioterapia integrativa: dor na coluna e lombar, ombro, joelho, ATM e mais. Viva sem dor, viva melhor.">
+<meta property="og:title" content="Cristiane Guimarães · Fisioterapeuta">
+<meta property="og:description" content="Viva sem dor, viva melhor. Fisioterapia para dor na coluna e lombar em Icaraí, Niterói.">
+<meta property="og:image" content="img/cristiane.jpg">
+<meta name="theme-color" content="#11373a">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --teal:#11373a; --teal-2:#1f5c58; --teal-3:#2f7a73; --menta:#e7f1ef; --bege:#f3efe4; --bege-2:#ebe4d3;
+  --tinta:#1d2b2c; --suave:#5a6a6a; --raio:18px; --sombra:0 24px 48px -28px rgba(17,55,58,.55);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Manrope",system-ui,sans-serif;color:var(--tinta);background:#fff;line-height:1.65;font-size:16.5px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{width:min(1140px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:"Josefin Sans",system-ui,sans-serif;line-height:1.12;color:var(--teal);font-weight:600}
+h2{font-size:clamp(1.9rem,3.6vw,2.7rem)}
+.kicker{display:inline-block;font-family:"Josefin Sans",sans-serif;font-size:.85rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--teal-3);margin-bottom:.8rem}
+.lead{color:var(--suave);font-size:1.06rem;max-width:60ch}
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.6rem;border-radius:999px;font-weight:700;text-decoration:none;font-size:.97rem;transition:transform .2s,background .2s,color .2s}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-teal{background:var(--teal);color:#fff;box-shadow:0 14px 28px -14px rgba(17,55,58,.9)}
+.btn-teal:hover{background:var(--teal-2);transform:translateY(-2px)}
+.btn-linha{border:1.5px solid var(--teal);color:var(--teal)}
+.btn-linha:hover{background:var(--teal);color:#fff}
+
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid #e3ebe9}
+.topo{display:flex;align-items:center;justify-content:space-between;height:78px;gap:16px}
+.marca{display:flex;align-items:center;gap:12px;text-decoration:none}
+.marca img{width:52px;height:52px}
+.marca b{font-family:"Josefin Sans",sans-serif;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);display:block;font-size:1.02rem;line-height:1.1}
+.marca small{display:block;font-family:"Josefin Sans",sans-serif;letter-spacing:.3em;text-transform:uppercase;color:var(--suave);font-size:.7rem}
+nav{display:flex;gap:26px;align-items:center}
+nav a{text-decoration:none;font-weight:600;color:var(--suave);font-size:.93rem}
+nav a:hover{color:var(--teal)}
+nav .btn{padding:.65rem 1.2rem;font-size:.9rem}
+@media (max-width:960px){nav a:not(.btn){display:none}}
+@media (max-width:440px){nav .btn span{display:none}nav .btn{padding:.75rem}.marca b{font-size:.9rem}}
+
+/* hero */
+.hero{background:linear-gradient(115deg,var(--bege) 0 58%,var(--menta) 58%);padding:64px 0 80px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.2vw,4.1rem);margin-bottom:1rem}
+.hero h1 em{font-style:normal;color:var(--teal-3)}
+.hero .lead{margin-bottom:1.8rem}
+.numeros{display:flex;flex-wrap:wrap;gap:28px;margin:0 0 2rem;list-style:none}
+.numeros li{display:flex;flex-direction:column}
+.numeros strong{font-family:"Josefin Sans",sans-serif;font-size:2.1rem;color:var(--teal);line-height:1}
+.numeros span{font-size:.85rem;color:var(--suave);font-weight:600}
+.acoes{display:flex;flex-wrap:wrap;gap:12px}
+.retrato{position:relative;justify-self:center;width:min(430px,100%)}
+.retrato .circ{border-radius:50%;overflow:hidden;aspect-ratio:1;box-shadow:var(--sombra);border:10px solid #fff;background:var(--teal)}
+.retrato .circ img{width:100%;height:100%;object-fit:cover;transform:scale(1.06)}
+.retrato .selo{position:absolute;left:-10px;bottom:20px;background:#fff;border-radius:16px;padding:.8rem 1rem;box-shadow:var(--sombra);display:flex;gap:.7rem;align-items:center}
+.selo strong{font-family:"Josefin Sans",sans-serif;font-size:1.8rem;color:var(--teal);line-height:1}
+.selo .est{color:#f4b400;letter-spacing:2px;font-size:.9rem}
+.selo small{display:block;color:var(--suave);font-size:.78rem;font-weight:600}
+.retrato .crefito{position:absolute;right:0;top:18px;background:var(--teal);color:#fff;border-radius:999px;padding:.45rem .9rem;font-size:.78rem;font-weight:700;letter-spacing:.04em}
+@media (max-width:900px){.hero{background:var(--bege);padding:36px 0 64px}.hero-grid{grid-template-columns:1fr;gap:40px}.retrato{order:-1;width:min(300px,80%)}}
+
+section{padding:92px 0}
+.cab{text-align:center;max-width:720px;margin:0 auto 48px}
+.cab .lead{margin:.9rem auto 0}
+
+/* o que trato */
+.trata{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid #e3ebe9;border-radius:var(--raio);padding:26px 24px;transition:transform .25s,box-shadow .25s,border-color .25s}
+.card:hover{transform:translateY(-4px);box-shadow:var(--sombra);border-color:transparent}
+.card .ico{width:50px;height:50px;border-radius:14px;background:var(--menta);color:var(--teal);display:grid;place-items:center;margin-bottom:14px}
+.card .ico svg{width:26px;height:26px}
+.card h3{font-size:1.3rem;margin-bottom:.35rem}
+.card p{color:var(--suave);font-size:.96rem}
+.card.destaque{background:var(--teal);border-color:var(--teal)}
+.card.destaque h3,.card.destaque p{color:#fff}
+.card.destaque p{opacity:.85}
+.card.destaque .ico{background:rgba(255,255,255,.12);color:#fff}
+@media (max-width:900px){.trata{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.trata{grid-template-columns:1fr}}
+
+/* abordagem */
+.abord{background:var(--menta)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.fotos2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.fotos2 figure{border-radius:var(--raio);overflow:hidden;box-shadow:var(--sombra)}
+.fotos2 img{width:100%;height:100%;object-fit:cover}
+.fotos2 .f1{grid-column:span 2;aspect-ratio:16/10}
+.fotos2 .f2,.fotos2 .f3{aspect-ratio:4/5}
+.passos{list-style:none;display:grid;gap:14px;margin:1.6rem 0 2rem;counter-reset:p}
+.passos li{display:flex;gap:16px;align-items:flex-start;background:#fff;border-radius:16px;padding:16px 18px}
+.passos li::before{counter-increment:p;content:counter(p,decimal-leading-zero);font-family:"Josefin Sans",sans-serif;font-weight:700;font-size:1.3rem;color:var(--teal-3);min-width:34px}
+.passos b{display:block;color:var(--teal)}
+.passos span{color:var(--suave);font-size:.95rem}
+@media (max-width:900px){.split{grid-template-columns:1fr;gap:40px}}
+
+/* sobre */
+.sobre-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:56px;align-items:center}
+.sobre-foto{border-radius:var(--raio);overflow:hidden;box-shadow:var(--sombra);aspect-ratio:4/5}
+.sobre-foto img{width:100%;height:100%;object-fit:cover}
+.form{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:1.6rem 0}
+.form li{background:var(--bege);border-radius:14px;padding:14px 16px}
+.form b{display:block;color:var(--teal);font-size:.98rem}
+.form span{color:var(--suave);font-size:.88rem}
+.frase{font-family:"Josefin Sans",sans-serif;font-size:1.35rem;color:var(--teal-2);border-left:3px solid var(--teal-3);padding-left:18px;margin:1.4rem 0 1.8rem}
+@media (max-width:900px){.sobre-grid{grid-template-columns:1fr;gap:40px}.sobre-foto{max-width:420px;width:100%;margin-inline:auto}}
+@media (max-width:480px){.form{grid-template-columns:1fr}}
+
+/* trabalhador */
+.trab{background:var(--teal);color:#fff}
+.trab h2,.trab h3{color:#fff}
+.trab .kicker{color:#9fd3c9}
+.trab .lead{color:rgba(255,255,255,.82)}
+.trab-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tcard{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:var(--raio);padding:26px 24px}
+.tcard svg{width:30px;height:30px;color:#9fd3c9;margin-bottom:12px}
+.tcard h3{font-size:1.25rem;margin-bottom:.4rem}
+.tcard p{color:rgba(255,255,255,.8);font-size:.95rem}
+@media (max-width:900px){.trab-grid{grid-template-columns:1fr}}
+
+/* consultório */
+.galeria{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:14px}
+.galeria figure{border-radius:16px;overflow:hidden}
+.galeria img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.galeria figure:hover img{transform:scale(1.05)}
+.galeria .larga{grid-column:span 2}
+@media (max-width:800px){.galeria{grid-template-columns:1fr 1fr;grid-auto-rows:170px}}
+
+/* depoimentos */
+.deps-sec{background:var(--bege)}
+.deps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.dep{background:#fff;border-radius:var(--raio);padding:26px;display:flex;flex-direction:column;box-shadow:0 16px 36px -28px rgba(17,55,58,.6)}
+.dep .est{color:#f4b400;letter-spacing:2px;font-size:.92rem}
+.dep p{margin:.7rem 0 1.2rem;flex:1}
+.dep footer{font-weight:700;color:var(--teal);font-size:.93rem;display:flex;gap:10px;align-items:center}
+.av{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--teal);color:#fff;font-weight:700}
+.dep:nth-child(even) .av{background:var(--teal-3)}
+.dep footer small{display:block;color:var(--suave);font-weight:500;font-size:.78rem}
+.nota-g{display:inline-flex;gap:10px;align-items:center;background:#fff;border-radius:999px;padding:.5rem 1.1rem;font-weight:700;color:var(--teal);margin-top:1rem}
+.nota-g .est{color:#f4b400;letter-spacing:2px}
+@media (max-width:900px){.deps{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.deps{grid-template-columns:1fr}}
+
+/* contato */
+.contato-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:44px}
+.info{display:grid;gap:12px;margin:1.6rem 0 2rem}
+.info>a,.info>div{display:flex;gap:14px;align-items:flex-start;text-decoration:none;background:var(--menta);border-radius:16px;padding:14px 16px;transition:background .2s}
+.info>a:hover{background:#d9eae6}
+.info svg{flex:none;width:22px;height:22px;color:var(--teal);margin-top:2px}
+.info b{display:block;color:var(--teal)}
+.info span{color:var(--suave);font-size:.93rem}
+.horas{display:grid;grid-template-columns:auto auto;gap:2px 18px;font-size:.92rem;color:var(--suave);margin-top:4px}
+.mapa{border-radius:var(--raio);overflow:hidden;min-height:420px;background:var(--menta);box-shadow:var(--sombra)}
+.mapa iframe{width:100%;height:100%;min-height:420px;border:0;display:block}
+@media (max-width:900px){.contato-grid{grid-template-columns:1fr}}
+
+.rodape{background:var(--teal);color:rgba(255,255,255,.78);padding:28px 0;font-size:.88rem}
+.rodape .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.rodape img{width:56px;height:56px}
+.rodape a{color:#fff;font-weight:700;text-decoration:none}
+
+.zap{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(0,0,0,.45);transition:transform .2s}
+.zap:hover{transform:scale(1.07)}
+.zap svg{width:32px;height:32px}
+
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.reveal.on{opacity:1;transform:none}
+.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.41 1.3-1.95 1.35-.5.05-.97.23-3.27-.68-2.77-1.09-4.52-3.92-4.66-4.1-.13-.18-1.1-1.47-1.1-2.81s.7-2 .95-2.27c.25-.27.54-.34.72-.34h.52c.17 0 .4-.06.62.47.24.56.79 1.92.86 2.06.07.14.11.3.02.48-.09.18-.14.3-.27.46l-.41.48c-.14.14-.28.29-.12.56.16.27.71 1.17 1.52 1.89 1.04.93 1.92 1.22 2.19 1.35.27.14.43.11.59-.07.16-.18.68-.79.86-1.06.18-.27.36-.23.61-.14.25.09 1.58.75 1.85.88.27.14.45.2.52.32.07.11.07.66-.17 1.33Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/></symbol>
+  <symbol id="i-spine" viewBox="0 0 24 24"><g fill="currentColor"><circle cx="12" cy="3" r="1.6"/><ellipse cx="12" cy="7" rx="2.6" ry="1.3"/><ellipse cx="12" cy="10.6" rx="2.8" ry="1.35"/><ellipse cx="12" cy="14.2" rx="2.9" ry="1.4"/><ellipse cx="12" cy="17.8" rx="2.6" ry="1.3"/><ellipse cx="12" cy="21.2" rx="1.9" ry="1.1"/></g></symbol>
+  <symbol id="i-shoulder" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="4.5" r="2.5"/><path d="M5 21v-7a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v7"/><circle cx="17" cy="11" r="1.6" fill="currentColor"/></g></symbol>
+  <symbol id="i-knee" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 2v8.5a3 3 0 0 0 3 3h0a3 3 0 0 1 3 3V22M12 13.5V22"/></symbol>
+  <symbol id="i-foot" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 2v11c0 2-3 3-3 6a3 3 0 0 0 3 3h9a2 2 0 0 0 0-4h-3c-1.5 0-3-1.5-3-3V2"/></symbol>
+  <symbol id="i-jaw" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 8a7 7 0 0 1 14 0v3c0 5-3 9-7 9s-7-4-7-9V8Zm4 8h6"/></symbol>
+  <symbol id="i-arm" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 20c3-1 5-3 6-6l2-5c1-2 3-3 5-2l2 1-2 4-3 1-1 3c-1 3-4 5-7 6"/></symbol>
+  <symbol id="i-scale" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v18M7 21h10M5 7h14M5 7l-3 6a3 3 0 0 0 6 0L5 7Zm14 0-3 6a3 3 0 0 0 6 0l-3-6Z"/></symbol>
+  <symbol id="i-work" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/></g></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M6 2h9l5 5v15H6V2Zm9 0v5h5M9 13h8M9 17h8"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap topo">
+    <a class="marca" href="#inicio" aria-label="Cristiane Guimarães, Fisioterapeuta — início"><img src="img/logo.png" alt="" width="52" height="52"><span><b>Cristiane Guimarães</b><small>Fisioterapeuta</small></span></a>
+    <nav aria-label="Principal">
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#abordagem">Abordagem</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#contato">Contato</a>
+      <a class="btn btn-teal" href="https://wa.me/5521987656781?text=Ol%C3%A1%2C%20Cristiane!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg><span>Agendar</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker reveal">Fisioterapia em Icaraí · Niterói</span>
+        <h1 class="reveal d1">Viva sem dor, <em>viva melhor.</em></h1>
+        <p class="lead reveal d2">Fisioterapia para dor na coluna e lombar, com atendimento individualizado e humanizado. Cada tratamento começa por uma avaliação completa, para cuidar da causa da dor e não só dos sintomas.</p>
+        <ul class="numeros reveal d2">
+          <li><strong>37</strong><span>anos de experiência</span></li>
+          <li><strong>5,0</strong><span>48 avaliações no Google</span></li>
+          <li><strong>RPG</strong><span>e Biomecânica Corporal</span></li>
+        </ul>
+        <div class="acoes reveal d3">
+          <a class="btn btn-teal" href="https://wa.me/5521987656781?text=Ol%C3%A1%2C%20Cristiane!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Agende sua avaliação</a>
+          <a class="btn btn-linha" href="#tratamentos">O que eu trato</a>
+        </div>
+      </div>
+      <div class="retrato reveal d1">
+        <div class="circ"><img src="img/cristiane.jpg" alt="Cristiane Guimarães, fisioterapeuta, sorrindo" width="1400" height="1400"></div>
+        <span class="crefito">CREFITO2/9639-F</span>
+        <div class="selo"><strong>5,0</strong><div><span class="est" aria-hidden="true">★★★★★</span><small>48 avaliações no Google</small></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tratamentos">
+    <div class="wrap">
+      <div class="cab">
+        <span class="kicker reveal">Tratamentos</span>
+        <h2 class="reveal d1">Dores musculares e articulares</h2>
+        <p class="lead reveal d2">Fisioterapia traumato-ortopédica e funcional para adultos e adolescentes a partir de 14 anos.</p>
+      </div>
+      <div class="trata">
+        <div class="card destaque reveal"><div class="ico"><svg><use href="#i-spine"/></svg></div><h3>Coluna e lombar</h3><p>Dor lombar (lombalgia), dor cervical, hérnia de disco e outras doenças da coluna.</p></div>
+        <div class="card reveal d1"><div class="ico"><svg><use href="#i-shoulder"/></svg></div><h3>Ombro</h3><p>Capsulite adesiva (ombro congelado), tendinite e perda de mobilidade.</p></div>
+        <div class="card reveal d2"><div class="ico"><svg><use href="#i-knee"/></svg></div><h3>Joelho e quadril</h3><p>Dores no joelho e no quadril e recuperação após lesões, como a do LCA.</p></div>
+        <div class="card reveal"><div class="ico"><svg><use href="#i-foot"/></svg></div><h3>Pés</h3><p>Fascite plantar e dores que limitam o caminhar.</p></div>
+        <div class="card reveal d1"><div class="ico"><svg><use href="#i-jaw"/></svg></div><h3>ATM</h3><p>Fisioterapia para a articulação temporomandibular.</p></div>
+        <div class="card reveal d2"><div class="ico"><svg><use href="#i-arm"/></svg></div><h3>Braços</h3><p>Dores musculares e articulares nos braços.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="abordagem" class="abord">
+    <div class="wrap split">
+      <div class="fotos2 reveal">
+        <figure class="f1"><img src="img/atendimento-1.jpg" alt="Cristiane realizando terapia manual na coluna de um paciente" loading="lazy"></figure>
+        <figure class="f2"><img src="img/atendimento-2.jpg" alt="Cristiane mobilizando a perna de um paciente na maca" loading="lazy"></figure>
+        <figure class="f3"><img src="img/avaliacao.jpg" alt="Avaliação postural de paciente sentada na maca" loading="lazy"></figure>
+      </div>
+      <div>
+        <span class="kicker reveal">Abordagem</span>
+        <h2 class="reveal d1">O corpo avaliado como um todo</h2>
+        <p class="lead reveal d2" style="margin-top:.9rem">A dor nem sempre vem só do ponto onde é sentida. Por isso, o tratamento considera a postura, os movimentos e as compensações do corpo.</p>
+        <ol class="passos">
+          <li class="reveal"><div><b>Avaliação individualizada</b><span>Histórico, postura, movimentos e possíveis compensações corporais.</span></div></li>
+          <li class="reveal d1"><div><b>Tratamento direcionado</b><span>Técnicas manuais, exercícios terapêuticos e recursos como o laser, respeitando a tolerância à dor e os limites de cada paciente.</span></div></li>
+          <li class="reveal d2"><div><b>Exercícios para casa</b><span>Orientações para continuar o tratamento no dia a dia e evoluir mais rápido.</span></div></li>
+        </ol>
+        <a class="btn btn-teal reveal d3" href="https://wa.me/5521987656781?text=Ol%C3%A1%2C%20Cristiane!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Agendar avaliação</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="wrap sobre-grid">
+      <div class="sobre-foto reveal"><img src="img/cristiane-2.jpg" alt="Cristiane Guimarães no consultório" loading="lazy" style="object-position:8% 50%"></div>
+      <div>
+        <span class="kicker reveal">Sobre</span>
+        <h2 class="reveal d1">Prazer, sou a Cristiane</h2>
+        <p class="lead reveal d2" style="margin-top:.9rem">Fisioterapeuta graduada pela Universidade Católica de Petrópolis em 1988, com 37 anos de experiência em fisioterapia integrativa. Busco sempre aprimorar meus conhecimentos e técnicas para oferecer o melhor tratamento a cada paciente.</p>
+        <ul class="form">
+          <li class="reveal"><b>Especialização</b><span>Biomecânica Corporal e RPG (Reeducação Postural Global)</span></li>
+          <li class="reveal d1"><b>Experiência</b><span>Traumato-ortopédico-funcional, doenças da coluna e dores músculo-articulares</span></li>
+        </ul>
+        <p class="frase reveal d2">“Recuperar o movimento é recuperar a liberdade de realizar as atividades do dia a dia.”</p>
+        <a class="btn btn-linha reveal d3" href="https://www.instagram.com/cristianenguimaraes/" target="_blank" rel="noopener"><svg><use href="#i-insta"/></svg>@cristianenguimaraes</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="trab">
+    <div class="wrap">
+      <div class="cab">
+        <span class="kicker reveal">Saúde do trabalhador</span>
+        <h2 class="reveal d1">Perícia fisioterapêutica</h2>
+        <p class="lead reveal d2" style="margin-inline:auto">Além da clínica, atuo como perita judicial, com avaliação fisioterapêutica especializada para processos trabalhistas e previdenciários.</p>
+      </div>
+      <div class="trab-grid">
+        <div class="tcard reveal"><svg><use href="#i-scale"/></svg><h3>Perícia judicial</h3><p>Avaliação técnica da capacidade funcional para a Justiça do Trabalho.</p></div>
+        <div class="tcard reveal d1"><svg><use href="#i-doc"/></svg><h3>Ações previdenciárias</h3><p>Avaliação fisioterapêutica como prova técnica em processos contra o INSS.</p></div>
+        <div class="tcard reveal d2"><svg><use href="#i-work"/></svg><h3>Doenças ocupacionais</h3><p>Análise de dores e lesões relacionadas ao trabalho e orientações de prevenção.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cab">
+        <span class="kicker reveal">Consultório</span>
+        <h2 class="reveal d1">Atendimento em Icaraí</h2>
+        <p class="lead reveal d2">Consultório particular na Rua Gavião Peixoto, em um ambiente tranquilo e preparado para o seu tratamento.</p>
+      </div>
+      <div class="galeria">
+        <figure class="larga reveal"><img src="img/consultorio-1.jpg" alt="Sala de atendimento com macas e janelas amplas" loading="lazy"></figure>
+        <figure class="larga reveal d1"><img src="img/consultorio-4.jpg" alt="Consultório com mesa e maca" loading="lazy"></figure>
+        <figure class="larga reveal"><img src="img/consultorio-3.jpg" alt="Mesa de atendimento e estantes do consultório" loading="lazy"></figure>
+        <figure class="larga reveal d1"><img src="img/consultorio-2.jpg" alt="Maca de atendimento" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="depoimentos" class="deps-sec">
+    <div class="wrap">
+      <div class="cab">
+        <span class="kicker reveal">Depoimentos</span>
+        <h2 class="reveal d1">Quem já tratou, recomenda</h2>
+        <span class="nota-g reveal d2">5,0 <span class="est" aria-hidden="true">★★★★★</span> · 48 avaliações no Google</span>
+      </div>
+      <div class="deps">
+        <article class="dep reveal"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“O que mais me chamou atenção foi o cuidado em entender que a dor nem sempre vem só do ponto onde sentimos — ela avalia o corpo como um todo, de forma completa e integrada. […] Ela orienta exercícios e atividades para serem feitos em casa, o que faz toda a diferença na evolução do tratamento.”</p><footer><span class="av">T</span><span>Thiago Martins<small>Google</small></span></footer></article>
+        <article class="dep reveal d1"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Gostaria de expressar minha profunda gratidão pelo alívio que me proporcionou, ao desconforto e dor horrível que eu sentia por causa de uma capsulite adesiva no ombro direito. Após algumas sessões de fisioterapia, sinto-me ótima.”</p><footer><span class="av">M</span><span>Magali<small>Google</small></span></footer></article>
+        <article class="dep reveal d2"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“A dra Cristiane é uma fisioterapeuta excelente profissional experiente humanizada que fez-me perceber o meu corpo como um todo. Em uma sessão descobri a origem da dor que me limita e com o trabalho fisioterápico estou aliviada.”</p><footer><span class="av">E</span><span>Elaine Passos<small>Google</small></span></footer></article>
+        <article class="dep reveal"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Faço fisioterapia da ATM com a Cristiane há mais ou menos um mês, o tratamento é extremamente eficaz. Obtive resultado já na primeira semana. Uma excelente profissional!”</p><footer><span class="av">A</span><span>Antonia Batista<small>Google</small></span></footer></article>
+        <article class="dep reveal d1"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“Eu estava com dores insuportáveis no pé decorrente à inflamação denominada fascite plantar e com sessões de fisioterapia feitas por essas mãos mágicas já consigo caminhar normalmente e voltei para minha rotina.”</p><footer><span class="av">B</span><span>Barbara Amaro<small>Google</small></span></footer></article>
+        <article class="dep reveal d2"><span class="est" aria-label="5 estrelas">★★★★★</span><p>“A Cristiane é uma excelente profissional! Atenciosa, generosa, paciente, ética, cuidadosa, responsável com o trabalho que faz. O tratamento recebido está sendo extremamente eficaz! Mas lembrem-se: o profissional não pode trabalhar sozinho! Façam o dever de casa que com certeza o resultado será surpreendente.”</p><footer><span class="av">C</span><span>Cin Souza<small>Google</small></span></footer></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap contato-grid">
+      <div>
+        <span class="kicker reveal">Contato</span>
+        <h2 class="reveal d1">Agende sua avaliação</h2>
+        <p class="lead reveal d2" style="margin-top:.8rem">Atendimento particular, com hora marcada. Chame no WhatsApp para encontrar o melhor horário.</p>
+        <div class="info">
+          <a class="reveal" href="https://wa.me/5521987656781?text=Ol%C3%A1%2C%20Cristiane!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg><div><b>WhatsApp</b><span>(21) 98765-6781</span></div></a>
+          <a class="reveal d1" href="https://www.google.com/maps/search/?api=1&query=Cristiane+Guimaraes+Fisioterapia+R.+Gavi%C3%A3o+Peixoto+148+Icara%C3%AD+Niter%C3%B3i" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg><div><b>Endereço</b><span>R. Gavião Peixoto, 148 – Sala 1005<br>Icaraí, Niterói – RJ, 24230-101</span></div></a>
+          <div class="reveal d2"><svg><use href="#i-clock"/></svg><div><b>Horários</b><div class="horas"><span>Seg a Sex</span><span>9h às 17h</span><span>Sábado</span><span>9h às 12h</span><span>Domingo</span><span>Fechado</span></div></div></div>
+          <a class="reveal d3" href="https://www.instagram.com/cristianenguimaraes/" target="_blank" rel="noopener"><svg><use href="#i-insta"/></svg><div><b>Instagram</b><span>@cristianenguimaraes</span></div></a>
+        </div>
+        <a class="btn btn-teal reveal" href="https://wa.me/5521987656781?text=Ol%C3%A1%2C%20Cristiane!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Chamar no WhatsApp</a>
+      </div>
+      <div class="mapa reveal d1">
+        <iframe title="Mapa: consultório de Cristiane Guimarães em Icaraí, Niterói" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Cristiane+Guimaraes+Fisioterapia+para+Dor+na+Coluna+e+Lombar,+R.+Gavi%C3%A3o+Peixoto,+148,+Niter%C3%B3i&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <img src="img/logo-branco.png" alt="Cristiane Guimarães Fisioterapeuta" width="56" height="56">
+    <span>© <span id="ano">2026</span> Cristiane Guimarães · Fisioterapeuta · CREFITO2/9639-F</span>
+    <span>Site por <a href="https://firmiano.com.br" target="_blank" rel="noopener">Firmiano</a></span>
+  </div>
+</footer>
+
+<a class="zap" href="https://wa.me/5521987656781?text=Ol%C3%A1%2C%20Cristiane!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener" aria-label="Conversar no WhatsApp"><svg><use href="#i-zap"/></svg></a>
+
+<script>
+document.getElementById('ano').textContent=new Date().getFullYear();
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('on')});return;}
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
